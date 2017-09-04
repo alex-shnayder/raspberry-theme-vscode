@@ -1,0 +1,32 @@
+{
+  "name": "theme-raspberry",
+  "displayName": "Raspberry Theme",
+  "description": "Dark color theme for VS Code",
+  "version": "0.0.0",
+  "publisher": "alex-shnayder",
+  "engines": {
+    "vscode": "^1.15.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "homepage": "https://github.com/alex-shnayder/raspberry-theme-vscode",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alex-shnayder/raspberry-theme-vscode.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alex-shnayder/raspberry-theme-vscode/issues",
+    "email": "alex@shnayder.pro"
+  },
+  "license": "ISC",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Raspberry",
+        "uiTheme": "vs-dark",
+        "path": "./themes/raspberry-color-theme.json"
+      }
+    ]
+  }
+}

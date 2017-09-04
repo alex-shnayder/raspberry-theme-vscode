@@ -1,0 +1,288 @@
+{
+	"name": "Raspberry",
+	"type": "dark",
+	"colors": {
+		"editor.background": "#1c1b22",
+    "editor.foreground": "#d2c3a3",
+    "editor.lineHighlightBackground": "#25252c",
+    "editor.selectionBackground": "#3A3645",
+    "editor.selectionHighlightBackground": "#2E2B37",
+    "editor.wordHighlightBackground": "#2E2B37",
+    "editor.wordHighlightStrongBackground": "#3A3645",
+    "editor.findMatchBackground": "#3D3B45",
+    "editor.findMatchHighlightBackground": "#484552",
+    "editor.findRangeHighlightBackground": "#484552",
+    "editorLink.activeForeground": "#77b4e0",
+    "editorWhitespace.foreground": "#2A2E33",
+    "editorRuler.foreground": "#2A2E33",
+    "editorGroupHeader.tabsBackground": "#25242d",
+    "tab.inactiveBackground": "#2e2d38",
+    "tab.inactiveForeground": "#d1cbbe",
+    "tab.activeBackground": "#1d1c22",
+    "tab.activeForeground": "#f2e8d3",
+    "sideBar.background": "#19181f",
+    "sideBar.foreground": "#d1cbbe",
+    "sideBarSectionHeader.background": "#2e2d38",
+    "sideBarSectionHeader.foreground": "#d1cfc9",
+    "sideBarTitle.foreground": "#d1cfc9",
+    "activityBar.background": "#17161d",
+		"activityBarBadge.background": "#b33b4c",
+    "statusBar.foreground": "#d1cbbe",
+    "statusBar.background": "#17161d",
+    "statusBar.noFolderBackground": "#365578",
+    "statusBar.debuggingBackground": "#b33b4c",
+    "progressBar.background": "#b33b4c",
+    "panel.background": "#1a1920",
+    "panel.border": "#2A2E33",
+    "panelTitle.activeBorder": "#9e9d98",
+    "panelTitle.activeForeground": "#f2e8d3",
+    "panelTitle.inactiveForeground": "#d1cbbe",
+    "debugToolBar.background": "#3D3B45",
+    "list.activeSelectionBackground": "#302f3b",
+    "list.inactiveSelectionBackground": "#2c2b36",
+    "list.hoverBackground": "#26252e",
+    "badge.background": "#b33b4c",
+    "badge.foreground": "#d1cfc9",
+    "dropdown.background": "#343340",
+    "dropdown.foreground": "#d1cbbe",
+    "input.background": "#343340",
+    "input.foreground": "#d1cbbe"
+  },
+	"tokenColors": [
+		{
+			"settings": {
+				"background": "#1e1c22",
+				"foreground": "#d2c3a3"
+			}
+		},
+		{
+			"name": "Punctuation",
+			"scope": [
+				"punctuation",
+				"meta.brace"
+			],
+			"settings": {
+				"foreground": "#B7A888"
+			}
+    },
+		{
+			"name": "Comment",
+			"scope": [
+				"comment",
+				"punctuation.definition.comment"
+			],
+			"settings": {
+				"foreground": "#727D87"
+			}
+    },
+		{
+			"name": "Variable",
+			"scope": [
+				"variable",
+				"string constant.other.placeholder"
+			],
+			"settings": {
+				"foreground": "#e95a62"
+			}
+    },
+    {
+			"name": "Keyword, Storage",
+			"scope": [
+				"keyword",
+				"storage"
+			],
+			"settings": {
+				"foreground": "#77b4e0"
+			}
+		},
+		{
+			"name": "Operator",
+			"scope": [
+        "keyword.operator",
+        "storage.type.function.arrow",
+        "meta.arrow"
+			],
+			"settings": {
+				"foreground": "#b8d8e0"
+			}
+    },
+		{
+			"name": "Class and Function Name",
+			"scope": [
+        "entity.name.class",
+        "entity.name.function",
+        "support.type",
+        "support.class",
+        "support.function",
+        "meta.method.declaration"
+			],
+			"settings": {
+				"foreground": "#ebd9af"
+			}
+		},
+		{
+			"name": "Constant, Number, Color, Regexp",
+			"scope": [
+        "support.constant",
+        "constant.numeric",
+        "constant.language",
+        "constant.character",
+        "constant.other",
+        "string.regexp",
+        // For some reason, Code gives priority to "punctuation"
+        // over "constant.character", hence this:
+        "punctuation.definition.entity.html"
+			],
+			"settings": {
+				"foreground": "#7dd9a8"
+			}
+		},
+		{
+			"name": "String",
+			"scope": [
+				"string",
+				"punctuation.definition.string"
+			],
+			"settings": {
+				"fontStyle": "normal",
+				"foreground": "#5abf73"
+			}
+    },
+    {
+			"name": "Property, Attribute",
+			"scope": [
+        "meta.object-literal.key",
+        "support.type.property-name",
+        "punctuation.support.type.property-name",
+        "entity.other.attribute-name"
+			],
+			"settings": {
+				"foreground": "#edab5f"
+			}
+    },
+    {
+			"name": "Import, Export",
+			"scope": [
+        "support.type.object.module",
+        "keyword.control.import",
+        "keyword.control.export",
+        "keyword.control.from",
+        "keyword.control.default.js",
+        "meta.export.default.js"
+			],
+			"settings": {
+				"foreground": "#eb659a"
+			}
+    },
+
+
+    // Markup
+    {
+      "name": "Markup Heading",
+      "scope": [
+        "markup.heading"
+      ],
+      "settings": {
+        "foreground": "#77b4e0"
+      }
+    },
+    {
+      "name": "Markup Bold",
+      "scope": [
+        "markup.bold"
+      ],
+      "settings": {
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Markup Italic",
+      "scope": [
+        "markup.italic"
+      ],
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+
+
+    // XML, HTML
+    {
+			"name": "Tag Name",
+			"scope": [
+				"entity.name.tag",
+				"entity.name.tag.js",
+				"support.class.component.js"
+			],
+			"settings": {
+				"foreground": "#e95a62"
+			}
+    },
+    {
+			"name": "Tag Bracket",
+			"scope": [
+        "punctuation.definition.tag.xml",
+        "punctuation.definition.tag.html",
+        "punctuation.definition.tag.begin.html",
+        "punctuation.definition.tag.end.html"
+			],
+			"settings": {
+				"foreground": "#D8B380"
+			}
+    },
+    {
+			"name": "Doctype",
+			"scope": [
+        "meta.tag.sgml.doctype",
+        "keyword.other.doctype",
+        "variable.language.documentroot.xml"
+			],
+			"settings": {
+				"foreground": "#B4473C"
+			}
+    },
+
+
+    // Markdown
+    {
+			"name": "Markdown Heading",
+			"scope": [
+        "markup.heading.markdown",
+        "punctuation.definition.heading.markdown"
+			],
+			"settings": {
+				"foreground": "#77b4e0"
+			}
+    },
+    {
+			"name": "Markdown List",
+			"scope": [
+        "beginning.punctuation.definition.list.markdown"
+			],
+			"settings": {
+				"foreground": "#edab5f"
+			}
+		},
+    {
+			"name": "Markdown Punctuation (e.g. ```)",
+			"scope": [
+        "punctuation.definition.markdown",
+        "punctuation.definition.raw.markdown",
+        "punctuation.definition.bold.markdown",
+        "punctuation.definition.italic.markdown"
+			],
+			"settings": {
+				"foreground": "#b8d8e0"
+			}
+		},
+    {
+			"name": "Markdown Code Language",
+			"scope": [
+        "fenced_code.block.language"
+			],
+			"settings": {
+				"foreground": "#77b4e0"
+			}
+		}
+	]
+}
