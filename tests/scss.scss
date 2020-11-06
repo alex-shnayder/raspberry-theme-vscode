@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "Intro";
+  font-weight: 400;
+  src: url("../../fonts/Intro-Regular-Alt.woff") format("woff");
+}
+
+@media (max-width: 400px) {
+  #element-id div {
+    opacity: 0;
+  }
+}
+
+#element-id .class:hover div::before {
+  display: block;
+}
+
+.class {
+  display: none;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html, body, body > * {
+  height: 100%;
+  overflow: hidden;
+  font-family: Intro, sans-serif;
+}
+
+a {
+  color: #4f5395;
+  text-decoration-color: rgba(79, 83, 149, 0.5);
+  transition: 0.12s;
+
+  &:hover {
+    color: #591f68;
+    text-decoration-color: #591f68;
+  }
+}
+
+
+button {
+  all: unset;
+}
