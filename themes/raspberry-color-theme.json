@@ -109,7 +109,7 @@
         "meta.definition.variable entity.name.function"
       ],
       "settings": {
-        "foreground": "#eb5b62"
+        "foreground": "#f24d69"
       }
     },
     {
@@ -119,10 +119,11 @@
         "meta.type.declaration variable",
         "meta.type.annotation variable",
         "meta.interface variable",
-        "meta.return.type variable"
+        "meta.return.type variable",
+        "meta.var meta.type.annotation"
       ],
       "settings": {
-        "foreground": "#bf5a67"
+        "foreground": "#bf5063"
       }
     },
     {
@@ -132,7 +133,7 @@
         "storage"
       ],
       "settings": {
-        "foreground": "#83afde"
+        "foreground": "#80abd9"
       }
     },
     {
@@ -302,7 +303,7 @@
         "source.clojure meta.definition meta.symbol"
       ],
       "settings": {
-        "foreground": "#eb5b62"
+        "foreground": "#f24d69"
       }
     },
     {
@@ -361,7 +362,7 @@
         "support.class.component.js"
       ],
       "settings": {
-        "foreground": "#eb5b62"
+        "foreground": "#f24d69"
       }
     },
     {
@@ -432,10 +433,11 @@
     {
       "name": "Selector",
       "scope": [
-        "source.css meta.selector"
+        "source.css meta.selector",
+        "source.css entity.name.tag",
       ],
       "settings": {
-        "foreground": "#eb5b62"
+        "foreground": "#d1586c"
       }
     },
     {
@@ -445,7 +447,7 @@
         "source.css entity.other.attribute-name.class punctuation.definition",
       ],
       "settings": {
-        "foreground": "#f24c54"
+        "foreground": "#f24d69"
       }
     },
     {
@@ -455,7 +457,7 @@
         "source.css entity.other.attribute-name.id punctuation.definition",
       ],
       "settings": {
-        "foreground": "#f43f47"
+        "foreground": "#ff3d5d"
       }
     },
     {
