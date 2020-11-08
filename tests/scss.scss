@@ -4,13 +4,15 @@
   src: url("../../fonts/Intro-Regular-Alt.woff") format("woff");
 }
 
+$opacity: 0.5;
+
 @media (max-width: 400px) {
   #element-id div {
-    opacity: 0;
+    opacity: $opacity;
   }
 }
 
-#element-id .class:hover div::before {
+#element-id .class div:hover {
   display: block;
 }
 

@@ -10,7 +10,7 @@
   }
 }
 
-#element-id .class:hover div::before {
+#element-id .class div:hover {
   display: block;
 }
 
